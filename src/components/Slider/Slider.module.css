@@ -1,0 +1,21 @@
+.slider img{
+    height: 100vh;
+    object-fit: cover;
+}
+.slider{
+    height: 100vh;
+}
+.carousel{
+    box-shadow:0 5px 5px gray;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .slider{
+        height: 80vh;
+        max-width: 100%;
+    } 
+    .slider img{
+        height: 80vh;
+    }
+} */

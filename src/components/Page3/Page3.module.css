@@ -1,0 +1,136 @@
+
+.container{
+    max-width:100%;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: \; */
+   
+}
+.container img{
+    height:221px;
+    width:100%;
+    border-radius: 8px 8px 0 0 ;
+   
+}
+ /* .metbex{
+    margin-top: 85px;
+    width: 950px;
+    margin-left:280px;
+    height:100vh;
+} 
+
+
+ .medeniyyet{
+    width: 950px;
+    margin-left:280px;
+    margin-top:65px;
+    height: 100vh;
+}  */
+
+@media only screen and  (max-width: 320px){
+    .container{
+        display:block;
+        width: 70%;
+        margin-left: 8%;
+    }
+   
+   
+    .container img{
+        height:100px;
+        width:100%;
+        border-radius: 8px 8px 0 0 ;
+       
+    } 
+}
+@media only screen and (min-width:321px)  and (max-width:374px){
+    .container{
+        display:block;
+        width: 70%;
+        margin-left: 8%;
+    }
+   
+   
+    .container img{
+        height:100px;
+        width:100%;
+        border-radius: 8px 8px 0 0 ;
+       
+    } 
+}
+
+@media only screen and (min-width:375px)  and (max-width:424px){
+    .container{
+        display:block;
+        width: 70%;
+        margin-left: 8%;
+    }
+   
+   
+    .container img{
+        height:140px;
+        width:100%;
+        border-radius: 8px 8px 0 0 ;
+       
+    } 
+
+}
+
+
+@media only screen and (min-width:425px)  and (max-width:768px){
+     .container{
+        display:block;
+        width: 70%;
+        margin-left:8%;
+    }
+   
+   
+    .container img{
+        height:140px;
+        max-width:100%;
+        border-radius: 8px 8px 0 0 ;
+       
+    } 
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 1%;
+    }
+    .container div button{
+        margin-left: 120px;
+        
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width:1440px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 2%;
+    }
+    .container div button{
+        margin-left: 120px;
+        
+    }
+}
+@media only screen and (min-width:1441px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        
+        max-width: 100%;
+        margin-left: 1%;
+    }
+    .container div button{
+        margin-left: 120px;
+        
+    }
+}
+

@@ -1,0 +1,248 @@
+.container{
+    display:flex;
+    background-color:rgb(192, 186, 186);
+    box-shadow:0 10px 10px gray;
+    width: 100%;
+    
+}
+.container img{
+    height:80px;
+    width:80px;
+    margin-left: 250px;
+    margin-top:8px;
+}
+.xari{
+   display: flex;
+}
+
+.xari h3{
+   font-size: 25px;
+    margin-top: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.xari h3,a:hover{
+    color:black;
+}
+.link{
+    padding:10px 0 0 0;
+    margin-left:260px;
+    text-decoration: none;
+}
+.container a{
+    color:rgb(5, 3, 5);
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.container a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+@media only screen and  (max-width: 320px){
+    .container{
+        max-width: 100%;
+       }
+       .container img{
+        height:30px;
+        width:30px;
+        margin-left:10px;
+        margin-top:20px;
+    }   
+    .xari h3{
+        font-size: 17px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+       display:none;
+       margin-left:10px;
+       /* padding:30px 0 0 0; */
+    }
+    .link a{
+        display:none;
+      
+    }
+}
+ @media only screen and (min-width:321px)  and (max-width:374px){
+    .container{
+        width: 100%;
+       }
+       .container img{
+        height:30px;
+        width:30px;
+        margin-left:0px;
+        margin-top:20px;
+    }   
+    .xari h3{
+   font-size: 17px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+       display:none;
+       margin-left:20px;
+      
+    }
+    .link a{
+        display:none;
+      
+    }
+} 
+@media only screen and (min-width:375px)  and (max-width:424px){
+    .container{
+        width: 100%;
+       }
+       .container img{
+        height:30px;
+        width:30px;
+        margin-left:0px;
+        margin-top:20px;
+    }   
+    .xari h3{
+        font-size: 17px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+       display:none;
+       margin-left:60px;
+      
+    }
+    .link a{
+        display:none;
+      
+    }
+}
+@media only screen and (min-width:425px)  and (max-width:768px){
+    .container{
+        width: 100%;
+       }
+       .container img{
+        height:50px;
+        width:50px;
+        margin-left:37px;
+        margin-top:13px;
+    }   
+    .xari h3{
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+       display:none;
+       margin-left:13%;
+      
+    }
+    .link a{
+        display:none;
+      
+    }
+}
+@media only screen and (min-width:769px)  and (max-width:1024px){
+    .container{
+        max-width: 100%;
+       }
+       .container img{
+        height:50px;
+        width:50px;
+        margin-left:40px;
+        margin-top:13px;
+    }   
+    .xari h3{
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+        padding:10px 0 0 0;
+      
+        text-decoration: none;
+        margin-left:15%;
+      
+    }
+    .link a{
+        color:rgb(5, 3, 5);
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 20px;
+   font-weight: 600;
+   font-family: 'Raleway', sans-serif;
+      
+    }
+}
+@media only screen and (min-width:1025px)  and (max-width:1440px){
+    .container{
+        width: 100%;
+       }
+       .container img{
+        height:50px;
+        width:50px;
+        margin-left:30px;
+        margin-top:13px;
+    }   
+    .xari h3{
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+        padding:10px 0 0 0;
+      
+        text-decoration: none;
+        margin-left:13%;
+      
+    }
+    .link a{
+        color:rgb(5, 3, 5);
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 20px;
+   font-weight: 600;
+   font-family: 'Raleway', sans-serif;
+      
+    }
+}
+ /* @media only screen and (min-width:1200px) { 
+    .container{
+        width: 100%;
+       }
+       .container img{
+        height:50px;
+        width:50px;
+        margin-left:130px;
+        margin-top:13px;
+    }   
+    .xari h3{
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .link{
+        padding:10px 0 0 0;
+      
+        text-decoration: none;
+        margin-left:13%;
+      
+    }
+    .link a{
+        color:rgb(5, 3, 5);
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 20px;
+   font-weight: 600;
+   font-family: 'Raleway', sans-serif;
+      
+    }
+}  
+*/

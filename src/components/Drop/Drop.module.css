@@ -1,0 +1,113 @@
+ .container{
+    display:none;
+}
+/* .menu{
+    position: relative;
+   
+}
+.drop{
+    height: 32vh; 
+    position: absolute;
+        top:100%;
+        left:-60px;
+       
+}
+.drop a{
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: 1px; 
+}  */
+
+
+@media only screen and  (max-width: 320px){
+    .container{
+        display:flex;
+    }
+    .menu{
+        position: relative;
+    }
+    .container .drop{
+     height: 23vh;
+     background-color:rgb(192, 186, 186); 
+      position: absolute;
+      top:100%;
+      left:-80px;
+    }
+    .drop a{
+        display: block;
+        border-bottom: 2.5px solid grey; 
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:321px)  and (max-width:374px){
+    .container{
+        display:flex;
+    }
+    .menu{
+        position: relative;
+    }
+
+    .container .drop{
+        height: 24vh;
+        background-color:rgb(192, 186, 186); 
+        position: absolute;
+         top:100%;
+         left:-80px;
+    }
+    .drop a{
+        display: block;
+        border-bottom: 2.5px solid grey; 
+        font-size: 15px;
+    }
+} 
+
+@media only screen and (min-width:375px)  and (max-width:424px){
+    .container{
+        display:flex;
+    }
+    .menu{
+        position: relative;
+       
+    }
+    .container .drop{
+        height: 29vh;
+        background-color:rgb(192, 186, 186); 
+        position: absolute;
+        top:100%;
+        left:-80px;
+    }
+    .drop a{
+        display: block;
+        border-bottom: 2.5px solid grey; 
+        font-size: 20px;
+    }
+
+}
+@media only screen and (min-width:425px)  and (max-width:768px){
+    .container{
+        display:flex;
+    }
+    .menu{
+        position: relative;
+       
+    }
+
+    .container .drop{
+        height: 21vh;
+        background-color:rgb(192, 186, 186); 
+        position: absolute;
+        top:100%;
+        left:-80px;
+    }
+    .drop a{
+        display: block;
+        border-bottom: 2.5px solid grey; 
+        font-size: 20px;
+}
+}
+@media only screen and (min-width:769px)  and (max-width:1024px){
+    .container{
+        display: none;
+    }
+}

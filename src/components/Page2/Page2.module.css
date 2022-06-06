@@ -1,0 +1,959 @@
+.container section img{
+    height: 300px;
+    width:100%;  
+    margin:auto;
+    box-shadow:0 5px 5px gray;
+}
+
+.container h1{
+    margin-top:55px;
+    font-size: 30px;
+}
+.name{
+    font-size: 35px;
+    
+    }
+ 
+    
+.qubadli{
+        display:flex;
+         margin:10px 80px;
+         border:1px solid gray;
+         border-radius: 10px;
+         background-color:antiquewhite;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin:30px 0;
+    }
+ .qubadli p {
+       
+        text-align: center;
+        width:520px;
+        font-family: 'Raleway', sans-serif;
+        color:black;
+        font-weight:600;
+        font-size: 18px;
+        padding-bottom: 50px;
+        line-height: 30px;
+        margin: 20px 90px 0 90px;
+    }
+.qubadli img{
+        height:450px;
+        width:600px;
+        margin:45px 0 20px 0;
+        box-shadow:0 10px 10px gray;
+        
+    }
+ .qubadli figcaption{
+       
+        padding-left: 180px;
+    }    
+
+.kelbecer{
+        display:flex;
+         margin:50px 80px 50px 80px;
+         border:1px solid gray;
+         border-radius: 10px;
+         background-color:antiquewhite;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:30px 0;
+    } 
+ .kelbecer p {
+       
+        text-align: center;
+        width:520px;
+        font-family: 'Raleway', sans-serif;
+        color:black;
+        font-weight:600;
+        font-size: 18px;
+        padding-bottom: 50px;
+        line-height: 30px;
+        margin: 0px 90px 0 90px;
+    }
+.kelbecer img{
+        height:450px;
+        width:600px;
+        margin:45px 0 50px 50px;
+        box-shadow:0 10px 10px gray;
+        
+    }
+.kelbecer figcaption{
+       
+        padding-left: 290px;
+    }       
+
+ .zengilan{
+        display:flex;
+         margin:10px 80px;
+         border:1px solid gray;
+         border-radius: 10px;
+         background-color:antiquewhite;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 30px;}
+    .zengilan p {
+       
+        text-align: center;
+        width:520px;
+        font-family: 'Raleway', sans-serif;
+        color:black;
+        font-weight:600;
+        font-size: 18px;
+        padding-bottom: 50px;
+        line-height: 30px;
+        margin: 0px 90px 0 90px;
+    }
+    .zengilan img{
+        height:400px;
+        width:600px;
+        margin:45px 0 20px 0;
+        box-shadow:0 10px 10px gray;
+        
+    }
+    .zengilan figcaption{
+       
+        padding-left: 250px;
+    }           
+
+    hr{
+        width:320px;
+        margin-top:30px;
+        margin-bottom: 15px;
+        background-color: gray;
+        border:1px solid gray;
+    }
+       
+ .umumi p{
+            margin-left:300px;
+            margin-top:1900px;
+            margin-bottom: 100px;
+        }
+
+
+ @media only screen and  (max-width: 320px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .qubadli{
+        display:block;
+        width: 90%;
+        margin: 20px 5%;
+        padding-top:20px;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin-top: 10px;
+    }
+ .qubadli p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.qubadli img{
+    margin-left: 9%;
+    margin-bottom: 20px;
+    height: 190px;
+    width: 83%;
+    }
+ .qubadli figcaption{
+    width: 85%;
+    padding-left: 15%;
+    }    
+
+    .kelbecer{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:10px 0;
+    } 
+ .kelbecer p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.kelbecer img{
+    margin-left: 9%;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 83%;
+    margin-top:15px; 
+    }
+.kelbecer figcaption{
+    width: 85%;
+    padding-left: 33%;
+    }     
+    
+    .zengilan{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 10px;}
+    .zengilan p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .zengilan img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+        
+    }
+    .zengilan figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }           
+    .umumi p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    }
+        
+ @media only screen and (min-width:321px)  and (max-width:374px){ 
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .qubadli{
+        display:block;
+        width: 90%;
+        margin: 20px 5%;
+        padding-top:20px;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin-top: 10px;
+    }
+ .qubadli p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.qubadli img{
+    margin-left: 9%;
+    margin-bottom: 20px;
+    height: 190px;
+    width: 83%;
+    }
+ .qubadli figcaption{
+    width: 85%;
+    padding-left: 15%;
+    }    
+
+    .kelbecer{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:10px 0;
+    } 
+ .kelbecer p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.kelbecer img{
+    margin-left: 9%;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 83%;
+    margin-top:15px; 
+    }
+.kelbecer figcaption{
+    width: 85%;
+    padding-left: 33%;
+    }     
+    
+    .zengilan{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 10px;}
+    .zengilan p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .zengilan img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+        
+    }
+    .zengilan figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }        
+    
+    .umumi p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+        }
+        
+ @media only screen and (min-width:375px)  and (max-width:424px){
+           .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .qubadli{
+        display:block;
+        width: 90%;
+        margin: 20px 5%;
+        padding-top:20px;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin-top: 10px;
+    }
+ .qubadli p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.qubadli img{
+    margin-left: 9%;
+    margin-bottom: 20px;
+    height: 190px;
+    width: 83%;
+    }
+ .qubadli figcaption{
+    width: 85%;
+    padding-left: 15%;
+    }    
+
+    .kelbecer{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:10px 0;
+    } 
+ .kelbecer p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.kelbecer img{
+    margin-left: 9%;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 83%;
+    margin-top:15px; 
+    }
+.kelbecer figcaption{
+    width: 85%;
+    padding-left: 33%;
+    }     
+    
+    .zengilan{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 10px;}
+    .zengilan p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .zengilan img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+        
+    }
+    .zengilan figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }    
+    .umumi p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }       
+        }
+        
+ @media only screen and (min-width:425px)  and (max-width:768px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .qubadli{
+        display:block;
+        width: 90%;
+        margin: 20px 5%;
+        padding-top:20px;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin-top: 10px;
+    }
+ .qubadli p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.qubadli img{
+    margin-left: 9%;
+    margin-bottom: 20px;
+    height: 190px;
+    width: 83%;
+    }
+ .qubadli figcaption{
+    width: 85%;
+    padding-left: 30%;
+    }    
+
+    .kelbecer{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:10px 0;
+    } 
+ .kelbecer p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.kelbecer img{
+    margin-left: 9%;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 83%;
+    margin-top:15px; 
+    }
+.kelbecer figcaption{
+    width: 85%;
+    padding-left: 41%;
+    }     
+    
+    .zengilan{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 10px;}
+    .zengilan p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .zengilan img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+        
+    }
+    .zengilan figcaption{
+        width: 85%;
+        padding-left: 38%;
+    }        
+    
+    .umumi p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+        } 
+ @media only screen and (min-width:769px)  and (max-width:1024px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 19px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .qubadli{
+        display:block;
+        width: 90%;
+        margin: 20px 5%;
+        padding-top:20px;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin-top: 10px;
+    }
+ .qubadli p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 19px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    }
+.qubadli img{
+    margin-left: 19%;
+    margin-bottom: 20px;
+    height: 220px;
+    width: 63%;
+    }
+ .qubadli figcaption{
+    width: 85%;
+    padding-left: 32%;
+    }    
+
+    .kelbecer{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:10px 0;
+    } 
+ .kelbecer p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 19px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    }
+.kelbecer img{
+    margin-left: 19%;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 63%;
+    margin-top:15px; 
+    }
+.kelbecer figcaption{
+    width: 85%;
+    padding-left: 42%;
+    }     
+    
+    .zengilan{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 10px;}
+    .zengilan p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 19px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+    .zengilan img{
+        margin-left: 19%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 63%;
+        
+    }
+    .zengilan figcaption{
+        width: 85%;
+        padding-left: 39%;
+    }      
+    .umumi p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 100px;
+    }     
+        } 
+@media only screen and (min-width:1025px)  and (max-width:1199px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 19px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .qubadli{
+        display:block;
+        width: 90%;
+        margin: 20px 5%;
+        padding-top:20px;
+    }
+.qubadli:hover{
+    background-color:azure;
+}
+    .qubadli div{
+        margin-top: 10px;
+    }
+ .qubadli p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 19px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    }
+.qubadli img{
+    margin-left: 19%;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 63%;
+    }
+ .qubadli figcaption{
+    width: 85%;
+    padding-left: 37%;
+    }    
+
+    .kelbecer{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+
+ .kelbecer:hover{
+    background-color:azure;
+ }   
+    .kelbecer div{
+        margin:10px 0;
+    } 
+ .kelbecer p {
+       
+    margin:auto;
+    text-align: center;
+    width:80%;
+    font-size: 19px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    }
+.kelbecer img{
+    margin-left: 19%;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 63%;
+    margin-top:15px; 
+    }
+.kelbecer figcaption{
+    width: 85%;
+    padding-left: 45%;
+    }     
+    
+    .zengilan{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+         
+    }
+    .zengilan:hover{
+        background-color:azure;
+    }
+    .zengilan div{margin-top: 10px;}
+    .zengilan p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 19px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+    .zengilan img{
+        margin-left: 19%;
+        margin-bottom: 10px;
+        height: 250px;
+        width: 63%;
+        
+    }
+    .zengilan figcaption{
+        width: 85%;
+        padding-left: 43%;
+    }      
+    .umumi p{
+        margin:auto;
+        text-align: center;
+        width:70%;
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 100px;
+        margin-top:100px;
+    }     
+        }
+@media only screen and  (min-width:1200px){
+           
+            .qubadli img{
+                height:450px;
+                width:90%;
+             
+            }
+            .qubadli  figure{
+                width: 100%;
+                margin-left: 5%;
+            }
+            .qubadli figcaption{
+                width: 90%;
+               padding-left: 20%;
+            }
+            
+            
+            .kelbecer img{
+                height:450px;
+                width:90%;
+                margin:25px 0 20px 50px;
+                
+             
+            }
+            .kelbexer  p{
+                text-align: center;
+                width:520px;
+                font-family: 'Raleway', sans-serif;
+                color:black;
+                font-weight:600;
+                font-size: 18px;
+                padding-bottom: 50px;
+                line-height: 30px;
+                margin: 10px 40px ;
+            }
+            .kelbecer  figure{
+                width: 100%;
+                margin-left: 5%;
+            }
+            .kelbecer figcaption{
+                width: 100%;
+               padding-left: 45%;
+            }
+           
+            .zengilan img{
+                height:450px;
+                width:90%;
+                margin:25px 0 20px 0;
+                box-shadow:0 10px 10px gray;
+            }
+            .zengilan  figure{
+                width: 100%;
+                margin-left: 5%;
+            }
+            .zengilan figcaption{
+                width: 100%;
+               padding-left: 35%;
+            }
+        }
+        

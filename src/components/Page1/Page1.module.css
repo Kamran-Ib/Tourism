@@ -1,0 +1,1021 @@
+.container section img{
+    height: 300px;
+    width:100%;  
+    margin:auto;
+    box-shadow:0 5px 5px gray;
+}
+
+.container img{
+    margin-left: 19%;
+    margin-bottom: 40px;
+    height: 450px;
+    width: 960px;
+    box-shadow:0 10px 10px gray;
+}
+
+
+
+
+
+/* SUSA */
+
+
+.susa{
+    display:flex;
+     margin:70px 80px;
+     padding-top:20px;
+     border:1px solid gray;
+     border-radius: 10px;
+     background-color:antiquewhite;
+}
+.susa:hover{
+    background-color:azure;
+}
+.susa div{
+   margin-top: 80px;
+
+}
+.susa p {
+   
+    text-align: center;
+    width:520px;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight:600;
+    font-size: 19px;
+    padding-bottom: 50px;
+    line-height: 30px;
+    margin: 10px 50px 0 90px;
+}
+.susa img{
+    height:450px;
+    width:650px;
+    margin:25px 0 20px 0;
+    box-shadow:0 10px 10px gray;
+    
+}
+
+.susa figcaption{
+   padding-left: 230px;
+}
+
+
+/* XANKENDI */
+
+
+.xankendi {
+    display:flex;
+    margin:120px 80px;
+    border:1px solid gray;
+    border-radius: 10px;
+    background-color:antiquewhite;
+    padding:20px 0;
+}
+.xankendi:hover{
+    background-color:azure;
+}
+.xankendi img{
+    height:450px;
+    width:650px;
+    margin:25px 0 20px 50px;
+    
+    box-shadow:0 10px 10px gray;
+}
+.xankendi div{
+    margin-top: 80px;
+    
+ }
+ .xankendi div p{
+    text-align: center;
+    width:520px;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight:600;
+    font-size: 18px;
+    padding-bottom: 50px;
+    line-height: 30px;
+    margin: 10px 90px 0 90px;
+}
+.xankendi figcaption{
+    padding-left: 300px;
+ }
+
+
+
+/* XOCAVEND */
+
+
+.xocavend{
+    display:flex;
+    margin:120px 80px 225px 80px ;
+    border:1px solid gray;
+    border-radius: 10px;
+    background-color:antiquewhite;
+    padding-top:30px ;
+}
+.xocavend:hover{
+    background-color:azure;
+}
+.xocavend div{
+    margin:80px 0 0 0;
+    
+ }
+.xocavend img{
+    height:450px;
+    width:650px;
+    margin:25px 0 20px 0;
+    box-shadow:0 10px 10px gray;
+}
+.xocavend p{
+    text-align: center;
+    width:520px;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-weight:600;
+    font-size: 18px;
+    padding-bottom: 50px;
+    line-height: 30px;
+    margin: 30px 90px 0 50px;
+}
+.xocavend figcaption{
+
+    padding-left: 210px;
+    margin-bottom: 40px;
+}
+
+@media only screen and  (max-width: 320px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container img{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        height: 190px;
+        width: 80%;
+        box-shadow:0 10px 10px gray;
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+    .container h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .susa{
+         display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+     
+    .susa div{
+       margin-top: 10px;
+    
+    }
+    .susa:hover{
+        background-color:azure;
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .susa img{
+        margin-left: 9%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 83%;
+       
+        
+    }
+    
+    .susa figcaption{
+        width: 85%;
+       padding-left: 15%;
+    }
+
+    
+    .xankendi {
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+    .xankendi:hover{
+        background-color:azure;
+    }
+    .xankendi img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xankendi div{
+         margin-top: 0px;
+        
+     }
+     .xankendi div p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xankendi figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }
+    
+    .xocavend{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    } 
+    .xocavend:hover{
+        background-color:azure;
+    }
+    .xocavend div{
+        margin:10px 0 0 0;
+        
+     }
+    .xocavend img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xocavend p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xocavend figcaption{
+    
+        width: 85%;
+        padding-left: 23%;
+    }
+}
+
+@media only screen and (min-width:321px)  and (max-width:374px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container img{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        height: 190px;
+        width: 80%;
+        box-shadow:0 10px 10px gray;
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+    .container h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .susa{
+         display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+     
+    .susa div{
+       margin-top: 10px;
+    
+    }
+    .susa:hover{
+        background-color:azure;
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .susa img{
+        margin-left: 9%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 83%;
+       
+        
+    }
+    
+    .susa figcaption{
+        width: 85%;
+       padding-left: 15%;
+    }
+
+    
+    .xankendi {
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+    .xankendi:hover{
+        background-color:azure;
+    }
+    .xankendi img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xankendi div{
+         margin-top: 0px;
+        
+     }
+     .xankendi div p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xankendi figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }
+    
+    .xocavend{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    } 
+    .xocavend:hover{
+        background-color:azure;
+    }
+    .xocavend div{
+        margin:10px 0 0 0;
+        
+     }
+    .xocavend img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xocavend p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xocavend figcaption{
+    
+        width: 85%;
+        padding-left: 23%;
+    }
+}
+
+@media only screen and (min-width:375px)  and (max-width:424px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container img{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        height: 190px;
+        width: 80%;
+        box-shadow:0 10px 10px gray;
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+    .container h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .susa{
+         display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+     
+    .susa div{
+       margin-top: 10px;
+    
+    }
+    .susa:hover{
+        background-color:azure;
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .susa img{
+        margin-left: 9%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 83%;
+       
+        
+    }
+    
+    .susa figcaption{
+        width: 85%;
+       padding-left: 15%;
+    }
+
+    
+    .xankendi {
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+    .xankendi:hover{
+        background-color:azure;
+    }
+    .xankendi img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xankendi div{
+         margin-top: 0px;
+        
+     }
+     .xankendi div p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xankendi figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }
+    
+    .xocavend{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    } 
+    .xocavend:hover{
+        background-color:azure;
+    }
+    .xocavend div{
+        margin:10px 0 0 0;
+        
+     }
+    .xocavend img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xocavend p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xocavend figcaption{
+    
+        width: 85%;
+        padding-left: 23%;
+    }
+}
+
+@media only screen and (min-width:425px)  and (max-width:768px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container img{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        height: 190px;
+        width: 80%;
+        box-shadow:0 10px 10px gray;
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+    .container h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .susa{
+         display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+     
+    .susa div{
+       margin-top: 10px;
+    
+    }
+    .susa:hover{
+        background-color:azure;
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .susa img{
+        margin-left: 9%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 83%;
+       
+        
+    }
+    
+    .susa figcaption{
+        width: 85%;
+       padding-left: 15%;
+    }
+
+    
+    .xankendi {
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+    .xankendi:hover{
+        background-color:azure;
+    }
+    .xankendi img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xankendi div{
+         margin-top: 0px;
+        
+     }
+     .xankendi div p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xankendi figcaption{
+        width: 85%;
+        padding-left: 23%;
+    }
+    
+    .xocavend{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    } 
+    .xocavend:hover{
+        background-color:azure;
+    }
+    .xocavend div{
+        margin:10px 0 0 0;
+        
+     }
+    .xocavend img{
+        margin-left: 9%;
+        margin-bottom: 10px;
+        height: 190px;
+        width: 83%;
+    }
+    .xocavend p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xocavend figcaption{
+    
+        width: 85%;
+        padding-left: 23%;
+    }
+}
+@media only screen and (min-width:769px)  and (max-width:1024px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container img{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        height: 190px;
+        width: 80%;
+        box-shadow:0 10px 10px gray;
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+    .container h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .susa{
+         display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+     
+    .susa div{
+       margin-top: 10px;
+    
+    }
+    .susa:hover{
+        background-color:azure;
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .susa img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 60%;
+     
+    }
+    
+    .susa figcaption{
+        width: 85%;
+       padding-left: 35%;
+    }
+
+    
+    .xankendi {
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+    .xankendi:hover{
+        background-color:azure;
+    }
+    .xankendi img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 60%;
+    }
+    .xankendi div{
+         margin-top: 0px;
+        
+     }
+     .xankendi div p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xankendi figcaption{
+        width: 85%;
+       padding-left: 40%;
+    }
+    
+    .xocavend{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    } 
+    .xocavend:hover{
+        background-color:azure;
+    }
+    .xocavend div{
+        margin:10px 0 0 0;
+        
+     }
+    .xocavend img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        height: 190px;
+        width: 60%;
+    }
+    .xocavend p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xocavend figcaption{
+        width: 85%;
+        padding-left: 33%;
+    }
+}
+@media only screen and (min-width:1025px)  and (max-width:1199px){
+    .container section img{
+        height: 130px;
+        width:100%;  
+       
+    }
+    .container img{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        height: 190px;
+        width: 80%;
+        box-shadow:0 10px 10px gray;
+    }
+    .container h1{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+    .container h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .container p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    
+   
+    .susa{
+         display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+     
+    .susa div{
+       margin-top: 10px;
+    
+    }
+    .susa:hover{
+        background-color:azure;
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .susa img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 60%;
+     
+    }
+    
+    .susa figcaption{
+        width: 85%;
+       padding-left: 37%;
+    }
+
+    
+    .xankendi {
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    }
+    .xankendi:hover{
+        background-color:azure;
+    }
+    .xankendi img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 60%;
+    }
+    .xankendi div{
+         margin-top: 0px;
+        
+     }
+     .xankendi div p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xankendi figcaption{
+        width: 85%;
+       padding-left: 42%;
+    }
+    
+    .xocavend{
+        display:block;
+         width: 90%;
+         margin: 20px 5%;
+         padding-top:20px;
+    } 
+    .xocavend:hover{
+        background-color:azure;
+    }
+    .xocavend div{
+        margin:10px 0 0 0;
+        
+     }
+    .xocavend img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 60%;
+    }
+    .xocavend p{
+        margin:auto;
+        text-align: center;
+        width:80%;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .xocavend figcaption{
+        width: 85%;
+        padding-left: 36%;
+    }
+}
+@media only screen and  (min-width:1200px){
+   
+    .susa img{
+        height:450px;
+        width:90%;
+       
+     
+    }
+    .susa p {
+       
+        margin:auto;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 19px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+    .susa figure{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .susa figcaption{
+        width: 100%;
+        padding-left: 30%;
+    }
+    
+    
+    .xankendi img{
+        height:450px;
+        width:90%;
+        margin:25px 0 20px 10px;
+        
+     
+    }
+    .xankendi div p{
+        text-align: center;
+        width:520px;
+        font-family: 'Raleway', sans-serif;
+        color:black;
+        font-weight:600;
+        font-size: 18px;
+        padding-bottom: 50px;
+        line-height: 30px;
+        margin: 10px 40px ;
+    }
+    .xankendi figure{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .xankendi figcaption{
+        width: 100%;
+       padding-left: 29%;
+    }
+   
+    .xocavend img{
+        height:450px;
+        width:90%;
+        margin:25px 0 20px 0;
+        box-shadow:0 10px 10px gray;
+    }
+    .xocavend  figure{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .xocavend figcaption{
+        width: 100%;
+        padding-left: 20%;
+    }
+}
+
+
+
+
